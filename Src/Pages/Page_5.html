@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="../Resources/CSS/flatpickr.min.css">
 	<script src="../Resources/JS/flatpickr.js"></script>
 	<script type="text/javascript" src="../Resources/JS/Page_5.js"></script>
+	<script type="text/javascript" src="../Resources/JS/goal_bank.js"></script>
 </head>
 
 <body onload="fillExisting()">
@@ -68,12 +69,7 @@
 					
 					<div class="form-group">
 					<label for="goal1"><b>Long Term Goal 1 by June 2021</b></label>
-					<select class="form-control" id="goal1">
-						<option>Goal Bank Option 1</option>
-						<option>Goal Bank Option 2</option>
-						<option>Goal Bank Option 3</option>
-						<option>Goal Bank Option 4</option>
-						<option>Goal Bank Option 5</option>
+					<select class="form-control" id="goal1" onchange="updateShortTerm1();">
 						<option selected>None</option>
 					</select>
 					</div>
@@ -91,63 +87,20 @@
 					</div>
 					</div>
 					<select class="form-control" id="shortTermObjective1_1" style="display:block;">
-						<option>Short-Term Objective Bank Option 1</option>
-						<option>Short-Term Objective Bank Option 2</option>
-						<option>Short-Term Objective Bank Option 3</option>
-						<option>Short-Term Objective Bank Option 4</option>
-						<option>Short-Term Objective Bank Option 5</option>
 					</select>
 					<select class="form-control" id="shortTermObjective1_2" style="display:none;">
-						<option>Short-Term Objective Bank Option 1</option>
-						<option>Short-Term Objective Bank Option 2</option>
-						<option>Short-Term Objective Bank Option 3</option>
-						<option>Short-Term Objective Bank Option 4</option>
-						<option>Short-Term Objective Bank Option 5</option>
 					</select>
 					<select class="form-control" id="shortTermObjective1_3" style="display:none;">
-						<option>Short-Term Objective Bank Option 1</option>
-						<option>Short-Term Objective Bank Option 2</option>
-						<option>Short-Term Objective Bank Option 3</option>
-						<option>Short-Term Objective Bank Option 4</option>
-						<option>Short-Term Objective Bank Option 5</option>
 					</select>
 					</div>
 					
 					<label class="col-form-label" for="inputDefault" style="margin-top:0px;"><b>Objective Review</b></label>
 					<textarea class="form-control" id="objectiveReview1" rows="3" style="resize:none;"></textarea>
 					
-					<div class="form-group" style="margin-top:15px;">
-					<label for="goal1" style="margin-top:2vh;"><b>Accommodations and Strategies to Support this Goal</b></label>
-					<div style="float:right; margin-right:-5px; margin-top:1vh;">
-					<div class="btn-group mr-2" role="group" aria-label="First group" name="shortTermAccomodation1" style="margin-bottom:10px">
-						<button type="button" class="btn btn-info" onclick="shortTermAccomodation1_1()"><b>1</b></button>
-						<button type="button" class="btn btn-info" onclick="shortTermAccomodation1_2()"><b>2</b></button>
-						<button type="button" class="btn btn-info" onclick="shortTermAccomodation1_3()"><b>3</b></button>
+					<div class="form-group" style="margin-top:10px;">
+						<label for="goal1" style="margin-top:2vh;"><b>Accommodations and Strategies to Support this Goal</b></label>
+						<textarea class="form-control" id="goalStrategy1" rows="3" style="resize:none;"></textarea>
 					</div>
-					</div>
-					<select class="form-control" id="goalStrategy1_1" style="display:block">
-						<option>Strategy Goal Bank Option 1</option>
-						<option>Strategy Goal Bank Option 2</option>
-						<option>Strategy Goal Bank Option 3</option>
-						<option>Strategy Goal Bank Option 4</option>
-						<option>Strategy Goal Bank Option 5</option>
-					</select>
-					<select class="form-control" id="goalStrategy1_2" style="display:none">
-						<option>Strategy Goal Bank Option 1</option>
-						<option>Strategy Goal Bank Option 2</option>
-						<option>Strategy Goal Bank Option 3</option>
-						<option>Strategy Goal Bank Option 4</option>
-						<option>Strategy Goal Bank Option 5</option>
-					</select>
-					<select class="form-control" id="goalStrategy1_3" style="display:none">
-						<option>Strategy Goal Bank Option 1</option>
-						<option>Strategy Goal Bank Option 2</option>
-						<option>Strategy Goal Bank Option 3</option>
-						<option>Strategy Goal Bank Option 4</option>
-						<option>Strategy Goal Bank Option 5</option>
-					</select>
-					</div>
-					
 					
 				</div>
 				</div>
@@ -161,12 +114,7 @@
 					
 					<div class="form-group">
 					<label for="goal3"><b>Long Term Goal 3 by June 2021</b></label>
-					<select class="form-control" id="goal3">
-						<option>Goal Bank Option 1</option>
-						<option>Goal Bank Option 2</option>
-						<option>Goal Bank Option 3</option>
-						<option>Goal Bank Option 4</option>
-						<option>Goal Bank Option 5</option>
+					<select class="form-control" id="goal3" onchange="updateShortTerm3();">
 						<option selected>None</option>
 					</select>
 					</div>
@@ -183,62 +131,17 @@
 						<button type="button" class="btn btn-info" onclick="shortTermObjective3_3()"><b>3</b></button>
 					</div>
 					</div>
-					<select class="form-control" id="shortTermObjective3_1" style="display:block;">
-						<option>Short-Term Objective Bank Option 1</option>
-						<option>Short-Term Objective Bank Option 2</option>
-						<option>Short-Term Objective Bank Option 3</option>
-						<option>Short-Term Objective Bank Option 4</option>
-						<option>Short-Term Objective Bank Option 5</option>
-					</select>
-					<select class="form-control" id="shortTermObjective3_2" style="display:none;">
-						<option>Short-Term Objective Bank Option 1</option>
-						<option>Short-Term Objective Bank Option 2</option>
-						<option>Short-Term Objective Bank Option 3</option>
-						<option>Short-Term Objective Bank Option 4</option>
-						<option>Short-Term Objective Bank Option 5</option>
-					</select>
-					<select class="form-control" id="shortTermObjective3_3" style="display:none;">
-						<option>Short-Term Objective Bank Option 1</option>
-						<option>Short-Term Objective Bank Option 2</option>
-						<option>Short-Term Objective Bank Option 3</option>
-						<option>Short-Term Objective Bank Option 4</option>
-						<option>Short-Term Objective Bank Option 5</option>
-					</select>
+					<select class="form-control" id="shortTermObjective3_1" style="display:block;"></select>
+					<select class="form-control" id="shortTermObjective3_2" style="display:none;"></select>
+					<select class="form-control" id="shortTermObjective3_3" style="display:none;"></select>
 					</div>
 					
 					<label class="col-form-label" for="inputDefault" style="margin-top:0px;"><b>Objective Review</b></label>
 					<textarea class="form-control" id="objectiveReview3" rows="3" style="resize:none;"></textarea>
 					
-					<div class="form-group" style="margin-top:15px;">
-					<label for="goal3" style="margin-top:2vh;"><b>Accommodations and Strategies to Support this Goal</b></label>
-					<div style="float:right; margin-right:-5px; margin-top:1vh;">
-					<div class="btn-group mr-2" role="group" aria-label="First group" name="shortTermAccomodation3" style="margin-bottom:10px">
-						<button type="button" class="btn btn-info" onclick="shortTermAccomodation3_1()"><b>1</b></button>
-						<button type="button" class="btn btn-info" onclick="shortTermAccomodation3_2()"><b>2</b></button>
-						<button type="button" class="btn btn-info" onclick="shortTermAccomodation3_3()"><b>3</b></button>
-					</div>
-					</div>
-					<select class="form-control" id="goalStrategy3_1" style="display:block">
-						<option>Strategy Goal Bank Option 1</option>
-						<option>Strategy Goal Bank Option 2</option>
-						<option>Strategy Goal Bank Option 3</option>
-						<option>Strategy Goal Bank Option 4</option>
-						<option>Strategy Goal Bank Option 5</option>
-					</select>
-					<select class="form-control" id="goalStrategy3_2" style="display:none">
-						<option>Strategy Goal Bank Option 1</option>
-						<option>Strategy Goal Bank Option 2</option>
-						<option>Strategy Goal Bank Option 3</option>
-						<option>Strategy Goal Bank Option 4</option>
-						<option>Strategy Goal Bank Option 5</option>
-					</select>
-					<select class="form-control" id="goalStrategy3_3" style="display:none">
-						<option>Strategy Goal Bank Option 1</option>
-						<option>Strategy Goal Bank Option 2</option>
-						<option>Strategy Goal Bank Option 3</option>
-						<option>Strategy Goal Bank Option 4</option>
-						<option>Strategy Goal Bank Option 5</option>
-					</select>
+					<div class="form-group" style="margin-top:10px;">
+						<label for="goal3" style="margin-top:2vh;"><b>Accommodations and Strategies to Support this Goal</b></label>
+						<textarea class="form-control" id="goalStrategy3" rows="3" style="resize:none;"></textarea>
 					</div>
 				
 				</div>
@@ -255,12 +158,7 @@
 					
 					<div class="form-group">
 					<label for="goal1"><b>Long Term Goal 2 by June 2021</b></label>
-					<select class="form-control" id="goal2">
-						<option>Goal Bank Option 1</option>
-						<option>Goal Bank Option 2</option>
-						<option>Goal Bank Option 3</option>
-						<option>Goal Bank Option 4</option>
-						<option>Goal Bank Option 5</option>
+					<select class="form-control" id="goal2" onchange="updateShortTerm2();">
 						<option selected>None</option>
 					</select>
 					</div>
@@ -277,62 +175,17 @@
 						<button type="button" class="btn btn-info" onclick="shortTermObjective2_3()"><b>3</b></button>
 					</div>
 					</div>
-					<select class="form-control" id="shortTermObjective2_1" style="display:block;">
-						<option>Short-Term Objective Bank Option 1</option>
-						<option>Short-Term Objective Bank Option 2</option>
-						<option>Short-Term Objective Bank Option 3</option>
-						<option>Short-Term Objective Bank Option 4</option>
-						<option>Short-Term Objective Bank Option 5</option>
-					</select>
-					<select class="form-control" id="shortTermObjective2_2" style="display:none;">
-						<option>Short-Term Objective Bank Option 1</option>
-						<option>Short-Term Objective Bank Option 2</option>
-						<option>Short-Term Objective Bank Option 3</option>
-						<option>Short-Term Objective Bank Option 4</option>
-						<option>Short-Term Objective Bank Option 5</option>
-					</select>
-					<select class="form-control" id="shortTermObjective2_3" style="display:none;">
-						<option>Short-Term Objective Bank Option 1</option>
-						<option>Short-Term Objective Bank Option 2</option>
-						<option>Short-Term Objective Bank Option 3</option>
-						<option>Short-Term Objective Bank Option 4</option>
-						<option>Short-Term Objective Bank Option 5</option>
-					</select>
+					<select class="form-control" id="shortTermObjective2_1" style="display:block;"></select>
+					<select class="form-control" id="shortTermObjective2_2" style="display:none;"></select>
+					<select class="form-control" id="shortTermObjective2_3" style="display:none;"></select>
 					</div>
 					
 					<label class="col-form-label" for="inputDefault" style="margin-top:0px;"><b>Objective Review</b></label>
 					<textarea class="form-control" id="objectiveReview2" rows="3" style="resize:none;"></textarea>
 					
-					<div class="form-group" style="margin-top:15px;">
-					<label for="goal2" style="margin-top:2vh;"><b>Accommodations and Strategies to Support this Goal</b></label>
-					<div style="float:right; margin-right:-5px; margin-top:1vh;">
-					<div class="btn-group mr-2" role="group" aria-label="First group" name="shortTermAccomodation2" style="margin-bottom:10px">
-						<button type="button" class="btn btn-info" onclick="shortTermAccomodation2_1()"><b>1</b></button>
-						<button type="button" class="btn btn-info" onclick="shortTermAccomodation2_2()"><b>2</b></button>
-						<button type="button" class="btn btn-info" onclick="shortTermAccomodation2_3()"><b>3</b></button>
-					</div>
-					</div>
-					<select class="form-control" id="goalStrategy2_1" style="display:block">
-						<option>Strategy Goal Bank Option 1</option>
-						<option>Strategy Goal Bank Option 2</option>
-						<option>Strategy Goal Bank Option 3</option>
-						<option>Strategy Goal Bank Option 4</option>
-						<option>Strategy Goal Bank Option 5</option>
-					</select>
-					<select class="form-control" id="goalStrategy2_2" style="display:none">
-						<option>Strategy Goal Bank Option 1</option>
-						<option>Strategy Goal Bank Option 2</option>
-						<option>Strategy Goal Bank Option 3</option>
-						<option>Strategy Goal Bank Option 4</option>
-						<option>Strategy Goal Bank Option 5</option>
-					</select>
-					<select class="form-control" id="goalStrategy2_3" style="display:none">
-						<option>Strategy Goal Bank Option 1</option>
-						<option>Strategy Goal Bank Option 2</option>
-						<option>Strategy Goal Bank Option 3</option>
-						<option>Strategy Goal Bank Option 4</option>
-						<option>Strategy Goal Bank Option 5</option>
-					</select>
+					<div class="form-group" style="margin-top:10px;">
+						<label for="goal2" style="margin-top:2vh;"><b>Accommodations and Strategies to Support this Goal</b></label>
+						<textarea class="form-control" id="goalStrategy2" rows="3" style="resize:none;"></textarea>
 					</div>
 				
 				</div>
@@ -347,12 +200,7 @@
 					
 					<div class="form-group">
 					<label for="goal4"><b>Long Term Goal 4 by June 2021</b></label>
-					<select class="form-control" id="goal4">
-						<option>Goal Bank Option 1</option>
-						<option>Goal Bank Option 2</option>
-						<option>Goal Bank Option 3</option>
-						<option>Goal Bank Option 4</option>
-						<option>Goal Bank Option 5</option>
+					<select class="form-control" id="goal4" onchange="updateShortTerm4();">
 						<option selected>None</option>
 					</select>
 					</div>
@@ -369,62 +217,17 @@
 						<button type="button" class="btn btn-info" onclick="shortTermObjective4_3()"><b>3</b></button>
 					</div>
 					</div>
-					<select class="form-control" id="shortTermObjective4_1" style="display:block;">
-						<option>Short-Term Objective Bank Option 1</option>
-						<option>Short-Term Objective Bank Option 2</option>
-						<option>Short-Term Objective Bank Option 3</option>
-						<option>Short-Term Objective Bank Option 4</option>
-						<option>Short-Term Objective Bank Option 5</option>
-					</select>
-					<select class="form-control" id="shortTermObjective4_2" style="display:none;">
-						<option>Short-Term Objective Bank Option 1</option>
-						<option>Short-Term Objective Bank Option 2</option>
-						<option>Short-Term Objective Bank Option 3</option>
-						<option>Short-Term Objective Bank Option 4</option>
-						<option>Short-Term Objective Bank Option 5</option>
-					</select>
-					<select class="form-control" id="shortTermObjective4_3" style="display:none;">
-						<option>Short-Term Objective Bank Option 1</option>
-						<option>Short-Term Objective Bank Option 2</option>
-						<option>Short-Term Objective Bank Option 3</option>
-						<option>Short-Term Objective Bank Option 4</option>
-						<option>Short-Term Objective Bank Option 5</option>
-					</select>
+					<select class="form-control" id="shortTermObjective4_1" style="display:block;"></select>
+					<select class="form-control" id="shortTermObjective4_2" style="display:none;"></select>
+					<select class="form-control" id="shortTermObjective4_3" style="display:none;"></select>
 					</div>
 					
 					<label class="col-form-label" for="inputDefault" style="margin-top:0px;"><b>Objective Review</b></label>
 					<textarea class="form-control" id="objectiveReview4" rows="3" style="resize:none;"></textarea>
 					
-					<div class="form-group" style="margin-top:15px;">
-					<label for="goal4" style="margin-top:2vh;"><b>Accommodations and Strategies to Support this Goal</b></label>
-					<div style="float:right; margin-right:-5px; margin-top:1vh;">
-					<div class="btn-group mr-2" role="group" aria-label="First group" name="shortTermAccomodation4" style="margin-bottom:10px">
-						<button type="button" class="btn btn-info" onclick="shortTermAccomodation4_1()"><b>1</b></button>
-						<button type="button" class="btn btn-info" onclick="shortTermAccomodation4_2()"><b>2</b></button>
-						<button type="button" class="btn btn-info" onclick="shortTermAccomodation4_3()"><b>3</b></button>
-					</div>
-					</div>
-					<select class="form-control" id="goalStrategy4_1" style="display:block">
-						<option>Strategy Goal Bank Option 1</option>
-						<option>Strategy Goal Bank Option 2</option>
-						<option>Strategy Goal Bank Option 3</option>
-						<option>Strategy Goal Bank Option 4</option>
-						<option>Strategy Goal Bank Option 5</option>
-					</select>
-					<select class="form-control" id="goalStrategy4_2" style="display:none">
-						<option>Strategy Goal Bank Option 1</option>
-						<option>Strategy Goal Bank Option 2</option>
-						<option>Strategy Goal Bank Option 3</option>
-						<option>Strategy Goal Bank Option 4</option>
-						<option>Strategy Goal Bank Option 5</option>
-					</select>
-					<select class="form-control" id="goalStrategy4_3" style="display:none">
-						<option>Strategy Goal Bank Option 1</option>
-						<option>Strategy Goal Bank Option 2</option>
-						<option>Strategy Goal Bank Option 3</option>
-						<option>Strategy Goal Bank Option 4</option>
-						<option>Strategy Goal Bank Option 5</option>
-					</select>
+					<div class="form-group" style="margin-top:10px;">
+						<label for="goal4" style="margin-top:2vh;"><b>Accommodations and Strategies to Support this Goal</b></label>
+						<textarea class="form-control" id="goalStrategy4" rows="3" style="resize:none;"></textarea>
 					</div>
 				
 				</div>
