@@ -42,6 +42,27 @@ function fillExisting() {
 }
 		
 function next() {
+	
+	var input_error = false;
+	
+	//Error Check for Name
+	if(document.getElementById("childFirstName").value == ""){
+		document.getElementById("childFirstName").className = "form-control is-invalid";
+		input_error = true;
+	}
+	
+	if(document.getElementById("childMiddleName").value == ""){
+		document.getElementById("childMiddleName").className = "form-control is-invalid";
+		input_error = true;
+	}
+	
+	if(document.getElementById("childLastName").value == ""){
+		document.getElementById("childLastName").className = "form-control is-invalid";
+		input_error = true;
+	}
+	
+	if(input_error){return;}
+	
 	//Remove any existing items and add as new key
 	sessionStorage.removeItem("Child First Name");
 	sessionStorage.setItem("Child First Name", document.getElementById("childFirstName").value);

@@ -30,17 +30,15 @@
 .panel-A{
 	display:grid;
 	grid-template-columns:1fr;
-	grid-template-rows:1fr 1fr;
 }
 
 .panel-B{
 	display:grid;
 	grid-template-columns:1fr 1fr;
-	grid-template-rows: 0.4fr 1.6fr;
 	grid-column-gap:10px;
 	grid-row-gap:10px;
 	
-	align-content:end;
+
 }
 
 .upload{
