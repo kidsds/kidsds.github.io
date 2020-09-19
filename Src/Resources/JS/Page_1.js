@@ -282,9 +282,7 @@ function loadForm(input){
 			sessionStorage.setItem("Short Term Objective Goal 1.2",dict['Goal 1 Short Term 2']);
 			sessionStorage.setItem("Short Term Objective Goal 1.3",dict['Goal 1 Short Term 3']);
 			sessionStorage.setItem("Objective Review Goal 1",dict['Goal 1 Review']);
-			sessionStorage.setItem("Accommodations and Strategies Goal 1.1",dict['Goal 1 Accommodation 1']);
-			sessionStorage.setItem("Accommodations and Strategies Goal 1.2",dict['Goal 1 Accommodation 2']);
-			sessionStorage.setItem("Accommodations and Strategies Goal 1.3",dict['Goal 1 Accommodation 3']);
+			sessionStorage.setItem("Accommodations and Strategies Goal 1",dict['Goal 1 Accommodation 1']);
 		}
 		
 		if(dict['Long Term Goal 2'] != null){
@@ -294,9 +292,7 @@ function loadForm(input){
 			sessionStorage.setItem("Short Term Objective Goal 2.2",dict['Goal 2 Short Term 2']);
 			sessionStorage.setItem("Short Term Objective Goal 2.3",dict['Goal 2 Short Term 3']);
 			sessionStorage.setItem("Objective Review Goal 2",dict['Goal 2 Review']);
-			sessionStorage.setItem("Accommodations and Strategies Goal 2.1",dict['Goal 2 Accommodation 1']);
-			sessionStorage.setItem("Accommodations and Strategies Goal 2.2",dict['Goal 2 Accommodation 2']);
-			sessionStorage.setItem("Accommodations and Strategies Goal 2.3",dict['Goal 2 Accommodation 3']);
+			sessionStorage.setItem("Accommodations and Strategies Goal 2",dict['Goal 2 Accommodation 1']);
 		}
 		
 		if(dict['Long Term Goal 3'] != null){
@@ -306,9 +302,7 @@ function loadForm(input){
 			sessionStorage.setItem("Short Term Objective Goal 3.2",dict['Goal 3 Short Term 2']);
 			sessionStorage.setItem("Short Term Objective Goal 3.3",dict['Goal 3 Short Term 3']);
 			sessionStorage.setItem("Objective Review Goal 3",dict['Goal 3 Review']);
-			sessionStorage.setItem("Accommodations and Strategies Goal 3.1",dict['Goal 3 Accommodation 1']);
-			sessionStorage.setItem("Accommodations and Strategies Goal 3.2",dict['Goal 3 Accommodation 2']);
-			sessionStorage.setItem("Accommodations and Strategies Goal 3.3",dict['Goal 3 Accommodation 3']);
+			sessionStorage.setItem("Accommodations and Strategies Goal 3",dict['Goal 3 Accommodation 1']);
 		}
 		
 		if(dict['Long Term Goal 4'] != null){
@@ -318,9 +312,7 @@ function loadForm(input){
 			sessionStorage.setItem("Short Term Objective Goal 4.2",dict['Goal 4 Short Term 2']);
 			sessionStorage.setItem("Short Term Objective Goal 4.3",dict['Goal 4 Short Term 3']);
 			sessionStorage.setItem("Objective Review Goal 4",dict['Goal 4 Review']);
-			sessionStorage.setItem("Accommodations and Strategies Goal 4.1",dict['Goal 4 Accommodation 1']);
-			sessionStorage.setItem("Accommodations and Strategies Goal 4.2",dict['Goal 4 Accommodation 2']);
-			sessionStorage.setItem("Accommodations and Strategies Goal 4.3",dict['Goal 4 Accommodation 3']);
+			sessionStorage.setItem("Accommodations and Strategies Goal 4",dict['Goal 4 Accommodation 1']);
 		}
 		
 		//Page 6
