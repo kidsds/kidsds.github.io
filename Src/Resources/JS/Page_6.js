@@ -216,9 +216,7 @@ function createForm(){
 		fields['Goal 1 Short Term 2'] = [sessionStorage.getItem("Short Term Objective Goal 1.2")];
 		fields['Goal 1 Short Term 3'] = [sessionStorage.getItem("Short Term Objective Goal 1.3")];
 		fields['Goal 1 Review'] = [sessionStorage.getItem("Objective Review Goal 1")];
-		fields['Goal 1 Accommodation 1'] = [sessionStorage.getItem("Accommodations and Strategies Goal 1.1")];
-		fields['Goal 1 Accommodation 2'] = [sessionStorage.getItem("Accommodations and Strategies Goal 1.2")];
-		fields['Goal 1 Accommodation 3'] = [sessionStorage.getItem("Accommodations and Strategies Goal 1.3")];
+		fields['Goal 1 Accommodation 1'] = [sessionStorage.getItem("Accommodations and Strategies Goal 1")];
 	}
 	
 	//Check Goal 2
@@ -229,9 +227,7 @@ function createForm(){
 		fields['Goal 1 Short Term 2'] = [sessionStorage.getItem("Short Term Objective Goal 1.2")];
 		fields['Goal 1 Short Term 3'] = [sessionStorage.getItem("Short Term Objective Goal 1.3")];
 		fields['Goal 1 Review'] = [sessionStorage.getItem("Objective Review Goal 1")];
-		fields['Goal 1 Accommodation 1'] = [sessionStorage.getItem("Accommodations and Strategies Goal 1.1")];
-		fields['Goal 1 Accommodation 2'] = [sessionStorage.getItem("Accommodations and Strategies Goal 1.2")];
-		fields['Goal 1 Accommodation 3'] = [sessionStorage.getItem("Accommodations and Strategies Goal 1.3")];
+		fields['Goal 1 Accommodation 1'] = [sessionStorage.getItem("Accommodations and Strategies Goal 1")];
 		
 		fields['Long Term Goal 2'] = [sessionStorage.getItem("Long Term Goal 2")];
 		fields['Baseline Goal 2'] = [sessionStorage.getItem("Baseline Goal 2")];
@@ -239,9 +235,7 @@ function createForm(){
 		fields['Goal 2 Short Term 2'] = [sessionStorage.getItem("Short Term Objective Goal 2.2")];
 		fields['Goal 2 Short Term 3'] = [sessionStorage.getItem("Short Term Objective Goal 2.3")];
 		fields['Goal 2 Review'] = [sessionStorage.getItem("Objective Review Goal 2")];
-		fields['Goal 2 Accommodation 1'] = [sessionStorage.getItem("Accommodations and Strategies Goal 2.1")];
-		fields['Goal 2 Accommodation 2'] = [sessionStorage.getItem("Accommodations and Strategies Goal 2.2")];
-		fields['Goal 2 Accommodation 3'] = [sessionStorage.getItem("Accommodations and Strategies Goal 2.3")];
+		fields['Goal 2 Accommodation 1'] = [sessionStorage.getItem("Accommodations and Strategies Goal 2")];
 	}
 	
 	//Check Goal 3
@@ -252,9 +246,7 @@ function createForm(){
 		fields['Goal 1 Short Term 2'] = [sessionStorage.getItem("Short Term Objective Goal 1.2")];
 		fields['Goal 1 Short Term 3'] = [sessionStorage.getItem("Short Term Objective Goal 1.3")];
 		fields['Goal 1 Review'] = [sessionStorage.getItem("Objective Review Goal 1")];
-		fields['Goal 1 Accommodation 1'] = [sessionStorage.getItem("Accommodations and Strategies Goal 1.1")];
-		fields['Goal 1 Accommodation 2'] = [sessionStorage.getItem("Accommodations and Strategies Goal 1.2")];
-		fields['Goal 1 Accommodation 3'] = [sessionStorage.getItem("Accommodations and Strategies Goal 1.3")];
+		fields['Goal 1 Accommodation 1'] = [sessionStorage.getItem("Accommodations and Strategies Goal 1")];
 		
 		fields['Long Term Goal 2'] = [sessionStorage.getItem("Long Term Goal 2")];
 		fields['Baseline Goal 2'] = [sessionStorage.getItem("Baseline Goal 2")];
@@ -262,9 +254,7 @@ function createForm(){
 		fields['Goal 2 Short Term 2'] = [sessionStorage.getItem("Short Term Objective Goal 2.2")];
 		fields['Goal 2 Short Term 3'] = [sessionStorage.getItem("Short Term Objective Goal 2.3")];
 		fields['Goal 2 Review'] = [sessionStorage.getItem("Objective Review Goal 2")];
-		fields['Goal 2 Accommodation 1'] = [sessionStorage.getItem("Accommodations and Strategies Goal 2.1")];
-		fields['Goal 2 Accommodation 2'] = [sessionStorage.getItem("Accommodations and Strategies Goal 2.2")];
-		fields['Goal 2 Accommodation 3'] = [sessionStorage.getItem("Accommodations and Strategies Goal 2.3")];
+		fields['Goal 2 Accommodation 1'] = [sessionStorage.getItem("Accommodations and Strategies Goal 2")];
 		
 		fields['Long Term Goal 3'] = [sessionStorage.getItem("Long Term Goal 3")];
 		fields['Baseline Goal 3'] = [sessionStorage.getItem("Baseline Goal 3")];
@@ -272,9 +262,7 @@ function createForm(){
 		fields['Goal 3 Short Term 2'] = [sessionStorage.getItem("Short Term Objective Goal 3.2")];
 		fields['Goal 3 Short Term 3'] = [sessionStorage.getItem("Short Term Objective Goal 3.3")];
 		fields['Goal 3 Review'] = [sessionStorage.getItem("Objective Review Goal 3")];
-		fields['Goal 3 Accommodation 1'] = [sessionStorage.getItem("Accommodations and Strategies Goal 3.1")];
-		fields['Goal 3 Accommodation 2'] = [sessionStorage.getItem("Accommodations and Strategies Goal 3.2")];
-		fields['Goal 3 Accommodation 3'] = [sessionStorage.getItem("Accommodations and Strategies Goal 3.3")];
+		fields['Goal 3 Accommodation 1'] = [sessionStorage.getItem("Accommodations and Strategies Goal 3")];
 	}
 	
 	//Check Goal 4
@@ -285,9 +273,7 @@ function createForm(){
 		fields['Goal 1 Short Term 2'] = [sessionStorage.getItem("Short Term Objective Goal 1.2")];
 		fields['Goal 1 Short Term 3'] = [sessionStorage.getItem("Short Term Objective Goal 1.3")];
 		fields['Goal 1 Review'] = [sessionStorage.getItem("Objective Review Goal 1")];
-		fields['Goal 1 Accommodation 1'] = [sessionStorage.getItem("Accommodations and Strategies Goal 1.1")];
-		fields['Goal 1 Accommodation 2'] = [sessionStorage.getItem("Accommodations and Strategies Goal 1.2")];
-		fields['Goal 1 Accommodation 3'] = [sessionStorage.getItem("Accommodations and Strategies Goal 1.3")];
+		fields['Goal 1 Accommodation 1'] = [sessionStorage.getItem("Accommodations and Strategies Goal 1")];
 		
 		fields['Long Term Goal 2'] = [sessionStorage.getItem("Long Term Goal 2")];
 		fields['Baseline Goal 2'] = [sessionStorage.getItem("Baseline Goal 2")];
@@ -295,9 +281,7 @@ function createForm(){
 		fields['Goal 2 Short Term 2'] = [sessionStorage.getItem("Short Term Objective Goal 2.2")];
 		fields['Goal 2 Short Term 3'] = [sessionStorage.getItem("Short Term Objective Goal 2.3")];
 		fields['Goal 2 Review'] = [sessionStorage.getItem("Objective Review Goal 2")];
-		fields['Goal 2 Accommodation 1'] = [sessionStorage.getItem("Accommodations and Strategies Goal 2.1")];
-		fields['Goal 2 Accommodation 2'] = [sessionStorage.getItem("Accommodations and Strategies Goal 2.2")];
-		fields['Goal 2 Accommodation 3'] = [sessionStorage.getItem("Accommodations and Strategies Goal 2.3")];
+		fields['Goal 2 Accommodation 1'] = [sessionStorage.getItem("Accommodations and Strategies Goal 2")];
 		
 		fields['Long Term Goal 3'] = [sessionStorage.getItem("Long Term Goal 3")];
 		fields['Baseline Goal 3'] = [sessionStorage.getItem("Baseline Goal 3")];
@@ -305,9 +289,7 @@ function createForm(){
 		fields['Goal 3 Short Term 2'] = [sessionStorage.getItem("Short Term Objective Goal 3.2")];
 		fields['Goal 3 Short Term 3'] = [sessionStorage.getItem("Short Term Objective Goal 3.3")];
 		fields['Goal 3 Review'] = [sessionStorage.getItem("Objective Review Goal 3")];
-		fields['Goal 3 Accommodation 1'] = [sessionStorage.getItem("Accommodations and Strategies Goal 3.1")];
-		fields['Goal 3 Accommodation 2'] = [sessionStorage.getItem("Accommodations and Strategies Goal 3.2")];
-		fields['Goal 3 Accommodation 3'] = [sessionStorage.getItem("Accommodations and Strategies Goal 3.3")];		
+		fields['Goal 3 Accommodation 1'] = [sessionStorage.getItem("Accommodations and Strategies Goal 3")];	
 
 		fields['Long Term Goal 4'] = [sessionStorage.getItem("Long Term Goal 4")];
 		fields['Baseline Goal 4'] = [sessionStorage.getItem("Baseline Goal 4")];
@@ -315,9 +297,7 @@ function createForm(){
 		fields['Goal 4 Short Term 2'] = [sessionStorage.getItem("Short Term Objective Goal 4.2")];
 		fields['Goal 4 Short Term 3'] = [sessionStorage.getItem("Short Term Objective Goal 4.3")];
 		fields['Goal 4 Review'] = [sessionStorage.getItem("Objective Review Goal 4")];
-		fields['Goal 4 Accommodation 1'] = [sessionStorage.getItem("Accommodations and Strategies Goal 4.1")];
-		fields['Goal 4 Accommodation 2'] = [sessionStorage.getItem("Accommodations and Strategies Goal 4.2")];
-		fields['Goal 4 Accommodation 3'] = [sessionStorage.getItem("Accommodations and Strategies Goal 4.3")];		
+		fields['Goal 4 Accommodation 1'] = [sessionStorage.getItem("Accommodations and Strategies Goal 4")];		
 	}
 	
 	fields['Early Learning Accommodations'] = [sessionStorage.getItem("Early Learning Accommodations")];
